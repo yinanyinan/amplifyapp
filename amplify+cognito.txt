@@ -1,4 +1,5 @@
 https://aws.amazon.com/tw/getting-started/hands-on/deploy-react-app-cicd-amplify/
+https://dev.classmethod.jp/articles/amplify-congito-try-user-authentication/
 
 新專案在amplify初始化前。
 要先把IAM資訊set進去
