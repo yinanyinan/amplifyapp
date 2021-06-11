@@ -1,6 +1,12 @@
 
 import logo from './logo.svg';
 import './App.css';
+import React from 'react';
+import Amplify from 'aws-amplify';
+import { AmplifyAuthenticator, AmplifySignUp, AmplifySignOut } from '@aws-amplify/ui-react';
+import { AuthState, onAuthUIStateChange } from '@aws-amplify/ui-components';
+import awsconfig from './aws-exports';
+
 
 function App() {
   return (
@@ -25,13 +31,9 @@ function App() {
 
 export default App;
 
-/*
-import React from 'react';
-import Amplify from 'aws-amplify';
-import { AmplifyAuthenticator, AmplifySignUp, AmplifySignOut } from '@aws-amplify/ui-react';
-import { AuthState, onAuthUIStateChange } from '@aws-amplify/ui-components';
-import awsconfig from './aws-exports';
 
+
+/*
 Amplify.configure(awsconfig);
 
 const App = () => {
