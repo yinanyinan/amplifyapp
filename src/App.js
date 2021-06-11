@@ -38,7 +38,14 @@ import { AmplifyAuthenticator, AmplifySignUp, AmplifySignOut } from '@aws-amplif
 import { AuthState, onAuthUIStateChange } from '@aws-amplify/ui-components';
 //import awsconfig from './aws-exports';
 
-//Amplify.configure(awsconfig);
+Amplify.configure({
+  "aws_project_region": "ap-northeast-1",
+  "aws_cognito_identity_pool_id": "ap-northeast-1:45869f2b-64c7-4edd-8502-40011eadcfe0",
+  "aws_cognito_region": "ap-northeast-1",
+  "aws_user_pools_id": "ap-northeast-1_6Q6T9nbth",
+  "aws_user_pools_web_client_id": "3gorm2bbc4f8n38ut7na3eeejp",
+  "oauth": {}
+});
 
 
 const App = () => {
