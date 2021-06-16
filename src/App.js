@@ -39,12 +39,16 @@ import { AuthState, onAuthUIStateChange } from '@aws-amplify/ui-components';
 //import awsconfig from './aws-exports';
 
 Amplify.configure({
-  "aws_project_region": "ap-northeast-1",
-  "aws_cognito_identity_pool_id": "ap-northeast-1:45869f2b-64c7-4edd-8502-40011eadcfe0",
-  "aws_cognito_region": "ap-northeast-1",
-  "aws_user_pools_id": "ap-northeast-1_6Q6T9nbth",
-  "aws_user_pools_web_client_id": "3gorm2bbc4f8n38ut7na3eeejp",
-  "oauth": {}
+    "aws_project_region": "ap-northeast-1",
+    "aws_cognito_identity_pool_id": "ap-northeast-1:ce1c5c83-08ff-4c2e-9cb3-079bba140182",
+    "aws_cognito_region": "ap-northeast-1",
+    "aws_user_pools_id": "ap-northeast-1_hiBcqkdQd",
+    "aws_user_pools_web_client_id": "r5e71s19c2lbcsi8si71uads8",
+    "oauth": {},
+    "aws_appsync_graphqlEndpoint": "https://3hxchkwbdjc6bhoilgnscj4dfi.appsync-api.ap-northeast-1.amazonaws.com/graphql",
+    "aws_appsync_region": "ap-northeast-1",
+    "aws_appsync_authenticationType": "API_KEY",
+    "aws_appsync_apiKey": "da2-zexfka3a3be4xdsouwg7gxnw3m"
 });
 
 
